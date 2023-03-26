@@ -1,7 +1,49 @@
 #menu
 {
-	position: fixed;
+	/* position: fixed;
 	width: 100%;
 	height: 35px;
-	background: white;
+	background: rgb(56, 73, 223);
+	text-align: center; */
+	top: 0;
+    width: 100%;
+    background-color: #6a78f6;
+    overflow: hidden;
+    position: fixed;
+    text-align: center;
+	
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.8em;
+    margin-block-end: 0.8em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	text-align: center;
+}
+
+#about
+{
+	background: rgb(220, 71, 71);
+	text-align: center;
+}
+
+#image1
+{
+	max-width: 400px;
+}
+
+
+#playlist1
+{
+	float: center;
+}
+
+#fb-root
+{
+	float: center;
+	text-align: center;
 }
